@@ -1,0 +1,23 @@
+html{
+    background-color: #2C2727;
+}
+
+html{
+    padding: 4%
+}
+
+.top{
+    font: 1em Courier New, monospace;
+    font-size: 35;
+    color:antiquewhite;
+    font-weight: 600;
+
+}
+
+.mt-0 mb-1{
+    color: beige
+}
+.txte{
+  font: 1em Courier New, monospace;
+  color:antiquewhite;
+}

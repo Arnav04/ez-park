@@ -1,0 +1,53 @@
+
+
+.sName{
+    padding-top: 3%;
+}
+
+html{
+    background-color: #2C2727;
+}
+
+html{
+    padding: 4%
+}
+
+.pd1{
+    color:antiquewhite
+}
+.pd1{
+    font: 1em Courier New, monospace;
+}
+.pd2{
+    color:antiquewhite
+}
+.pd2{
+    font: 1em Courier New, monospace;
+}
+.pd3{
+    color:antiquewhite
+}
+.pd3{
+    font: 1em Courier New, monospace;
+}
+
+.as{
+    padding-top: 4%;
+}
+
+.temp{
+    opacity: 0;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #FF7517;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 19px;
+    cursor: pointer;
+    color:khaki
+  }

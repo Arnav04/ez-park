@@ -1,0 +1,7 @@
+Flask==1.1.2
+flask_cors==3.0.10
+flask_sqlalchemy==2.5.1
+flask_wtf==1.0.1
+requests==2.25.1
+WTForms==3.0.1
+gunicorn==20.1.0

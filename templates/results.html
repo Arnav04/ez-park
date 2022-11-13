@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Parking Information</title>
+    <link rel = "stylesheet" href = "Style2.css">
+  </head>
+  <h1 style="text-align: center" class = top> Available Parking Locations: </h1>
+  {% block body %}
+
+      {% if info %}
+        {% for x in info['result'] %}
+
+        <div class = txte>
+            <ul style="list-style: none;"
+            <br>
+                <h3 class="mt-0 mb-1">{{x['name']}} </h3>
+                Spaces: <b>{{x['spacesTotal']}}</b>
+                <br>
+                Handicapped Spaces: <b>{{x['handicapSpacesTotal']}}
+            </ul>
+        </div>
+
+        {% endfor %}
+        {% endif %}
+
+    </ul>
+  </div >
+  {% endblock %}
+
+</html>

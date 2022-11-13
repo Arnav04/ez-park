@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ-Park</title>
+    <link rel = "stylesheet" href = "/Style.css" type="text/css">
+  </head>
+
+  <body>
+    <div>
+      <center>
+      <a><img src="https://cdn.discordapp.com/attachments/1025645672311033878/1041384748368535582/logo.jpeg" alt="EZ Park Logo"></a>
+      <style>
+      img {
+      width: 20%;
+      }
+      </style>
+
+
+      <!-- <h1 class = "sName" ><center>ParkIt</center> </h1> -->
+      </center>
+    </div>
+
+
+  </body>
+  <center>
+  <form method = post class = as>
+    {{form.hidden_tag()}}
+    <div class = pd1>
+    {{form.loc.label}}{{form.loc}}
+    </div>
+
+    <br>
+
+    <div class = pd2>
+    {{form.rad.label}}
+    {{form.rad}}
+    </div>
+
+    <br>
+
+    <div class = pd3>
+    {{form.time.label}}
+    {{form.time}}
+    </div>
+
+    <br>
+    <div class = sbut>
+      {{form.submit(class="btn")}}
+    </div>
+  </form>
+  </center>
+</html>
